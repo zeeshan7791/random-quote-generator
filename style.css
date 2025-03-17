@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.quote-wrapper{
+    width: 40%;
+    margin:10px auto;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dfe620;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.17);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.17);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.17);;
+padding: 10px;
+}
+#display-quote{
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+}
+
+#add-new-quote{
+    width: 200px;
+padding: 14px 20px;
+border-radius: 5px;
+border: none;
+background-color: rgb(62, 62, 201);
+color: white;
+margin-top: 10px;
+}
+
+#x-share-button{
+    width: 200px;
+
+    padding: 14px 20px;
+border-radius: 5px;
+border: none;
+background-color: rgb(0, 0, 0);
+color: white;
+margin-top: 10px;
+
+}
+#author-name{
+    margin-top: 5px;
+
+}
