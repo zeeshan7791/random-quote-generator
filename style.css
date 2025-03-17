@@ -12,6 +12,16 @@
     align-items: center;
     height: 100vh;
 }
+#quote-heading{
+background-color: #dfe620;
+padding:4px 8px;
+border-radius: 5px;
+
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.17);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.17);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.17);;
+padding: 10px;
+}
 .quote-wrapper{
     width: 40%;
     margin:10px auto;
